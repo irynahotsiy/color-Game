@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background: black;
+    font-family: Arimo;
+}
+/***Title***/
+
+h1 {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: inherit;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.main-box {
+    max-width: 100%;
+    width: 100%;
+    background: blue;
+}
+
+.rgb {
+    font-size: 1.5em;
+}
+
+/***Buttons***/
+
+.box-buttons {
+    text-align: center;
+    color: blue;
+    background: white;
+}
+
+.box-buttons div {
+    display: inline-block;
+}
+
+.btn {
+    letter-spacing: 2px;
+    font-size: 1.0em;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.btn:hover {
+    color: white;
+    background: blue;
+    cursor: pointer;
+    transition: all 0.5s;
+    --webkit-transition: all 0.5s;
+    --moz-transition: all 0.5s;
+}
+
+.word-correct {
+    width: 20%;
+    color: black;
+}
+
+/*****Box for colors*****/
+
+.box-colors {
+    text-align: center;
+    padding-top: 50px;
+    margin: 0px auto;
+    max-width: 600px;
+}
+
+.color-square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 1.0s;
+    --webkit-transition: background 1.0s;
+    --moz-transition: background 1.0s;
+}
+
+/*************Js classes****************/
+
+.chosen-btn {
+    color: white;
+    background: blue;
+}
+
+.hide-box {
+    visibility: hidden;
+}
+
+.display-easy {
+    display: none;
+}
