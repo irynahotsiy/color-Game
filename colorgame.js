@@ -7,7 +7,7 @@ var new_colorsBtn = document.querySelector(".new-colors-btn");
 var rgb_color = document.querySelector(".rgb");
 var header_box = document.querySelector(".main-box");
 var correct_word = document.querySelector(".word-correct");
-var colors_space = document.querySelector(".colors-space");
+var colors_space = document.querySelector(".box-colors");
 
 
 innit();
