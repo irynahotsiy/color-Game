@@ -93,6 +93,7 @@ header {
 
 .hide-box {
     visibility: hidden;
+    border-radius: 15px;
 }
 
 .display-easy {
